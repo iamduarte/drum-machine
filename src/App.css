@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+.drum-machine {
+    background-color: rgb(238, 149, 100);
+    
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pad-display {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;  
+}
+
+.drum-pad {
+    background-color: rgb(157, 231, 133);
+    color: rgb(79, 108, 68);
+    height: 95px;
+    width: 95px;
+    margin: auto;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.drum-pad:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.played-display {
+    background-color: rgb(234, 177, 147);
+    color: rgb(175, 90, 44);
+    height: 95px;
+    width: 95px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;   
+}
+
+.title {
+    color: rgb(79, 108, 68);
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+.footer {
+    color: #f6f6f6;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:link, a:visited {
+    color: white;
+  }
+  
+  a:hover, a:active {
+    color: rgb(175, 90, 44);
+  }
